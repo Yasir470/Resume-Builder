@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Yasir - Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header Section -->
+    <header class="header">
+      <h1>Muhammad Yasir</h1>
+      <p>Experienced Accountant | 7 Years of Experience</p>
+      <p>Email: <a href="mailto:myasir0089@gmail.com">myasir0089@gmail.com</a></p>
+    </header>
+
+    <!-- Education Section -->
+    <section class="education">
+      <h2 onclick="toggleSection('education-details')">
+        Education
+        <span class="toggle-icon" id="icon-education">[+]</span>
+      </h2>
+      <ul id="education-details" class="hidden">
+        <li><strong>Bachelor of Commerce (B.Com)</strong></li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+      <h2 onclick="toggleSection('experience-details')">
+        Experience
+        <span class="toggle-icon" id="icon-experience">[+]</span>
+      </h2>
+      <ul id="experience-details" class="hidden">
+        <li><strong>7 Years as Accountant</strong></li>
+        <li>Proficient in Payroll, Bank Reconciliation, and Financial Analysis.</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2 onclick="toggleSection('skills-details')">
+        Skills
+        <span class="toggle-icon" id="icon-skills">[+]</span>
+      </h2>
+      <ul id="skills-details" class="hidden">
+        <li>QuickBooks</li>
+        <li>Financial Analysis</li>
+        <li>Budgeting</li>
+        <li>Bank Reconciliation</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

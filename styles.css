@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.resume-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 26px;
+  color: #007BFF;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+.header a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #555;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section h2:hover {
+  color: #007BFF;
+}
+
+.toggle-icon {
+  font-size: 16px;
+  color: #007BFF;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .resume-container {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+}
